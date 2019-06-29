@@ -1,2 +1,2 @@
-# startNode
-apoio para inicio de um projeto node com express
+# Estudo
+Repositório para apoio de estudos
