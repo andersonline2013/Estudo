@@ -2,9 +2,9 @@
 
 Repositório para apoio de estudos
 
-## Server (node.js)
+## Git (node.js)
 
-- [Iniciando Projeto](/src/node_startup.md)
+- [Manual Git](/src/git_helper.md)
 
 ## Server (node.js)
 
