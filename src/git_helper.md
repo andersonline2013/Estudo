@@ -1,27 +1,43 @@
 [Voltar](/README.md)
 
-# Git
+[![Banner](/src/assets/banner.jpg)](https://github.com/andersonline2013/Estudo/blob/master/src/git_helper.md)
 
-[![Banner](src/assets/banner.jpg)](https://github.com/andersonline2013/Estudo/git_helper)
+### Seção 1 - Instalando o Git
 
-Node.js é uma plataforma construída sobre o motor JavaScript do Google Chrome para facilmente construir aplicações de rede rápidas e escaláveis. Node.js usa um modelo de I/O direcionada a evento não bloqueante que o torna leve e eficiente, ideal para aplicações em tempo real com troca intensa de dados através de dispositivos distribuídos.
+# Instalação c criação de conta
 
-[Referência](http://nodebr.com/o-que-e-node-js/)
+- [Download](https://git-scm.com/download)
 
-# Iniciando projeto Node
+- [Criar conta GitHub](https://github.com/join)
 
-Criar a pasta para o projeto e acessa-lá através da linha de comando. Executar o seguinte comando para iniciar o projeto node.js
+### Seção 2 - Configurando o Git
+
+Definir usuário
 
 ```
-yarn init -y
+git config --global user.name "Seu Nome"
 ```
 
-> O -y indica para criar os arquivos com os valores default
-> Será criado o arquivo **package.json** com as informações do projeto.
+Definir email
 
-# Express
+```
+git config --global user.email "seuemail@gmail.com"
+```
 
-O Express.js é um framework Node que pode ser comparado com o Laravel para PHP, ele cria abstrações de rotas, middlewares e muitas outras funções para facilitar a criação tanto de API's quanto SPA's.
+### [Documentação](https://help.github.com/articles/connecting-to-github-with-ssh/)
+
+- ssh-keygen `para gerar par de chaves`
+- para os demais passos `enter`
+- pronto abrir o arquivo `id_rsa.pub` na pasta de usuário no pc e adicionar no Github em:
+
+[![Banner](/src/assets/add-ssh.png)](https://github.com/deppbrazil/course-git-e-github-para-iniciantes/blob/master/dist/storage/criando-e-adicionando-uma-chave-ssh.md)
+
+### Para abrir a chave gerada via terminal (po)
+
+- cd ~/ `volta para pasta raiz do sistema`
+- cd .ssh/ `entra na pasta ssh onde vai estar a chave`
+- ls `lista os arquivos`
+- cat id_rsa.pub `abre o arquivo`
 
 ## Instalando o Express
 

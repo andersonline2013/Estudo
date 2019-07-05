@@ -2,7 +2,7 @@
 
 Repositório para apoio de estudos
 
-## Git (node.js)
+## Git
 
 - [Manual Git](/src/git_helper.md)
 
