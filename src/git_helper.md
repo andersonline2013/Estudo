@@ -36,7 +36,7 @@ git config --global user.email "seuemail@gmail.com"
 - para os demais passos `enter`
 - pronto abrir o arquivo `id_rsa.pub` na pasta de usuário no pc e adicionar no Github em:
 
-[![Banner](/src/assets/add-ssh.png)](https://github.com/deppbrazil/course-git-e-github-para-iniciantes/blob/master/dist/storage/criando-e-adicionando-uma-chave-ssh.md)
+[![Banner](/src/assets/add-ssh.png)](https://github.com/andersonline2013/Estudo/blob/master/src/git_helper.md)
 
 ### Para abrir a chave gerada via terminal
 
@@ -47,27 +47,27 @@ git config --global user.email "seuemail@gmail.com"
 
 # Seção 3 - Essencial do Git
 
-###Iniciando um repositório
+### Iniciando um repositório
 
 - mkdir nome_da_pasta `cria pasta`
 - cd nome_da_pasta `entra na pasta`
 - git init `inicia arquivo .git`
 - ls `mostra detalhes dos arqvuivos`
 
-###Ciclo de vida no git
+### Ciclo de vida no git
 
 - untracked `não marcado, acabou de ser add no repo mas o git ainda não conhece o arquivo`
 - unmodified `depois de add ao controle do git, porém não foi modificado`
 - modified `passou por modificações`
 - staged `quando enviado ao stage` depois commit
 
-<img width="584" alt="screen shot" src="(/src/assets/file-status-lifecycle.png">
+[![Banner](/src/assets/file-status-lifecycle.png)](https://github.com/andersonline2013/Estudo/blob/master/src/git_helper.md)
 
-###Praticando
+# Seção 4 - Sincronização de repositórios
 
 Vamos criar nosso primeiro repositório no github
 
-<img width="584" alt="screen shot" src="(/src/assets/new-repo.png">
+[![Banner](/src/assets/new-repo.png)](https://github.com/andersonline2013/Estudo/blob/master/src/git_helper.md)
 
 Podemos sincronizar nosso repositorio online com o local de duas formas:
 
