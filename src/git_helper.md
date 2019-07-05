@@ -73,7 +73,7 @@ Vamos criar nosso primeiro repositório no github
 
 ### 1- Clonando o projeto do github
 
-- git@github.com:andersonline2013/firstRepo.git `clona um projeto`
+- git clone git@github.com:andersonline2013/firstRepo.git `clona um projeto`
 
 ### 2- Sincronizando apartir do repositório local
 
