@@ -199,7 +199,7 @@ const { name: fullname, breed, age: yearsOld = 3 } = cat;
 ```
 
 Commit as alterações para a branch #conflito e volte para a branch master
-obs:**git -am adiciona e commita ao mesmo tempo**
+`git -am adiciona e commita ao mesmo tempo`
 
 ```
 git commit -am "Alterado o nome das propriedades do obj cat"
